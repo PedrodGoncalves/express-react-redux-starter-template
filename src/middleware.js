@@ -4,4 +4,5 @@ export const promiseHandler = store => next => async action => {
         default: 
             next(action)
             break
+    }
 }
