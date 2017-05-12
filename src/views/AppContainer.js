@@ -13,7 +13,7 @@ const Container = styled.div`
 
 
 
-class AppContainer extends React.Component {
+export default class AppContainer extends React.Component {
     constructor(props) {
         super(props)
     }
